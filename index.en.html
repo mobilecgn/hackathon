@@ -33,7 +33,7 @@
         a .mobile, a .cologne, a .hack, a .institute {
             text-decoration: underline;
         }
-        .btn-group-lg>.btn, .btn-lg, .btn-default:hover, .btn-default:focus {
+        .btn-register, .btn-register:hover, .btn-register:focus {
             font-size: 26px;
             font-weight: 300;
             border-width: 2px;
@@ -67,7 +67,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Android Wear</span> Hackathon
+                    <span class="light">Android Wear</span> Hackathon
                 </a>
             </div>
 
@@ -82,11 +82,19 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#join">Join</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#location">Location</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#sponsors">Sponsors</a>
+                    </li>
+                    <!--
+                    <li>
+                        <a class="page-scroll" href="javascript:alert('todo');" x-target="_blank"><i class="fa fa-external-link-square animated"></i> Free registration</a>
+                    </li>
+                    -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -119,20 +127,19 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-10 col-lg-offset-1">
                 <h2 class="android handwritten">The hackathon</h2>
                 <p>At a community of 20-30 great designer, developers you bring ideas
                 for wearables together and implement a rapid prototyp within
                 <a href="http://4hourventure.com/">four hours</a>.
-
-                <p>You can join a team or pitch your own ideas.</p>
+                And sure, you can join a team or pitch your own ideas.</p>
 
                 <p>With the pleasure of our sponsores we provide you some test devices
-                and other hardware to play and integrate, like iBeacons.</p>
+                and other hardware to play, like iBeacons.</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-10 col-lg-offset-1">
                 <h3 class="android handwritten">Agenda (not final yet)</h3>
                 <p>The event will start at 2 p.m. with short kickoff talks about
                 the opportunities of the Android Wear system.
@@ -142,39 +149,40 @@
         </div>
         <div class="row">
             <h3 class="android handwritten">Scenarios with Wearables</h3>
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-10 col-lg-offset-1">
                 <p>Adopt your existing Android app to Android Wear or
                 create some new stuff. Open doors, connect other devices
                 or people, display your car position, ... Be creative!</p>
 
-                <p>You need more inspiration?<br/>
+                <p>You need more inspiration?
                 Checkout the latest Hackathons like
-                the iBeacon Hackathon.</p>
+                the iBeacon or Connected Car Hackathon.</p>
+            </div>
+            <div class="col-lg-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/k6eZhdoRdZM" frameborder="0" allowfullscreen></iframe>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="col-lg-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ILeuYB3SJdM" frameborder="0" allowfullscreen></iframe>
+                <p></p>
+                <p></p>
             </div>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Get your <span class="handwritten">free</span> ticket now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+    <!-- Join Section -->
+    <section id="join" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact us</h2>
-                <p>Feel free to email us to provide some feedback or to just say hello!</p>
-                <p><a href="mailto:hackathon@mobilecologne.de">hackathon@mobilecologne.de</a>
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2 x-class="android handwritten">How to join?</h2>
+
+                <p>
+                    <a href="#" class="btn btn-default btn-register">Get your <span class="handwritten">free</span> ticket -- soon</a>
                 </p>
+
+                <h2 x-class="android handwritten">Keep in contact</h2>
+                <p>Feel free to <a href="mailto:hackathon@mobilecologne.de">email</a> us to provide feedback, ask questions or to just say hello!</p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/mobilecgn" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">@mobilecgn</span></a>
@@ -187,46 +195,62 @@
         </div>
     </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
+    <!-- Download Section -->
+    <!--
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Download Grayscale</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <!-- Location Section -->
+    <section id="location" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>What next?</h2>
-                Get your ticket
-                Share #WearHack #Cologne
+            <h2 x-class="android handwritten">Location</h2>
+            <div class="col-lg-10 col-lg-offset-1">
+                <p>tba.</p>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Sponsored by</h2>
-                <p>Media and Press partners coming soon...</p>
+                <h3 class="android handwritten">Sponsored by</h3>
+                <p>Coming soon...</p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Hosted by</h2>
+                <h3 class="android handwritten">Hosted by</h3>
                 <p>tba...</p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Media Partners</h2>
-                <p>Media and Press partners coming soon...</p>
+                <h3 class="android handwritten">Media Partners</h3>
+                <p>Coming soon...</p>
             </div>
         </div>
+        <!--
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Powered by</h2>
-                mobile.cologne hack.institute
+                <a href="http://www.mobilecologne.de"><img src="img/mobile.cologne.png" /></a>
+                <a href="http://hack.institute"><img src="img/hack.institute.png" /></a>
             </div>
         </div>
+        -->
     </section>
 
     <!-- Footer -->
