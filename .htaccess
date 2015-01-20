@@ -1,0 +1,24 @@
+RewriteEngine   on
+#RewriteCond    %{HTTP_HOST}    !^(hackathon\.mobile\.cologne)$ [NC]
+#RewriteRule    (.*)            http://hackathon.mobile.cologne/$1 [R=301,L]
+
+RewriteCond %{HTTP:Accept-Language} (de) [NC]
+RewriteRule ^$ /index.de.html [L]
+RewriteRule ^/$ /index.de.html [L]
+
+#RewriteCond %{HTTP:Accept-Language} !.*de.* [NC]
+RewriteRule ^$ /index.en.html [L]
+RewriteRule ^/$ /index.en.html [L]
+
+#RewriteRule ^/de$ /index.de.html [L]
+#RewriteRule ^/en$ /index.de.html [L]
+
+Header unset Last-Modified
+Header unset ETag
+FileETag None
+
+ExpiresActive On
+ExpiresByType image/gif "access plus 7 days"
+ExpiresByType image/jpeg "access plus 7 days"
+ExpiresByType image/png "access plus 7 days"
+
