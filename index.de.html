@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Android Wear Hackathon, Cologne</title>
+    <title>Android Wear Hackathon, Köln</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,24 +22,61 @@
             color: #e01f1f;
         }
         .cologne {
-            color: #ffffff;
+            color: #000000;
         }
         .hack {
             color: #ff6d40;
         }
         .institute {
-            color: #ffffff;
+            color: #000000;
         }
         a .mobile, a .cologne, a .hack, a .institute {
             text-decoration: underline;
+        }
+        .navbar .join a {
+            background-color: #8bc349;
         }
         .btn-register, .btn-register:hover, .btn-register:focus {
             font-size: 26px;
             font-weight: 300;
             border-width: 2px;
         }
+        .btn-register {
+            color: black;
+            background-color: #8bc349;
+        }
+        .btn-register:hover, .btn-register:focus {
+            color: black;
+            background-color: white;
+        }
+
+        #join .form-control.email {
+            width: 300px;
+        }
+        #join .form-control.email, #join .subscribe {
+            height: auto;
+            font-size: 18px;
+        }
+
         .handwritten {
             font-family: 'Shadows Into Light Two', cursive;
+        }
+
+        #schedule table {
+            width: 100%;
+        }
+        #schedule tr {
+            border-bottom: 1px solid #8bc349;
+        }
+        #schedule tr:last-child {
+            border-bottom: none;
+        }
+        #schedule table th {
+            padding: 0.5em;
+        }
+        #schedule table td {
+            padding: 0.5em;
+            text-align: left;
         }
     </style>
 
@@ -75,26 +112,14 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#join">Join</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#location">Location</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#sponsors">Sponsors</a>
-                    </li>
-                    <!--
-                    <li>
-                        <a class="page-scroll" href="javascript:alert('todo');" x-target="_blank"><i class="fa fa-external-link-square animated"></i> Free registration</a>
-                    </li>
-                    -->
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#about">About</a></li>
+                    <li><a class="page-scroll" href="#schedule">Schedule</a></li>
+                    <!--<li><a class="page-scroll" href="#speakers">Speakers</a></li>-->
+                    <!--<li><a class="page-scroll" href="#mentors">Mentoren</a></li>-->
+                    <li><a class="page-scroll" href="#location">Location</a></li>
+                    <li class="join"><a class="page-scroll" href="#join">Join now</a></li>
+                    <!--<li><a class="page-scroll" href="#sponsors">Sponsors</a></li>-->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -111,9 +136,10 @@
                         <p class="intro-text">
                             Join a team of <span class="android handwritten">designer</span> &amp;
                             <span class="android handwritten">developers</span> at the first</p>
-                        <h1 class="brand-heading"><span class="android">Android Wear(able)</span> Hackathon</h1>
+                        <h1 class="brand-heading android">Android Wear(able)</h1>
+                        <h2 class="brand-heading">4 hour venture Hackathon</h2>
                         <p class="intro-text">
-                            at the 5th March in Cologne, Germany.
+                            5th March in Cologne, Germany.
                         </p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -160,61 +186,71 @@
             </div>
             <div class="col-lg-6">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/k6eZhdoRdZM" frameborder="0" allowfullscreen></iframe>
-                <p></p>
-                <p></p>
             </div>
             <div class="col-lg-6">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/ILeuYB3SJdM" frameborder="0" allowfullscreen></iframe>
-                <p></p>
-                <p></p>
             </div>
         </div>
     </section>
 
-    <!-- Join Section -->
-    <section id="join" class="container content-section text-center">
+    <!-- Schedule Section -->
+    <section id="schedule" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                <h2 x-class="android handwritten">How to join?</h2>
-
+            <div class="col-lg-6 col-lg-offset-3">
+                <h2 class="android handwritten">Schedule</h2>
                 <p>
-                    <a href="#" class="btn btn-default btn-register">Get your <span class="handwritten">free</span> ticket -- soon</a>
+                    We open the doors for you in the Solution Space at 2 pm and start the hackathon at 3 pm
+                    with some great talks about the opportunities. Get some inspiration before you start
+                    your 4 hour venture.
                 </p>
-
-                <h2 x-class="android handwritten">Keep in contact</h2>
-                <p>Feel free to <a href="mailto:hackathon@mobilecologne.de">email</a> us to provide feedback, ask questions or to just say hello!</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/mobilecgn" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">@mobilecgn</span></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/hackinstitute" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">@hackinstitute</span></a>
-                    </li>
-                </ul>
+                <table>
+                    <tr>
+                        <th>14:00</th>
+                        <td>Doors open, meet people, time to kicker, first beer</td>
+                    </tr>
+                    <tr>
+                        <th>15:00</th>
+                        <td><strong>Kickoff Hackthon</strong></td>
+                    </tr>
+                    <tr>
+                        <th>15:30</th>
+                        <td>Wearable vision talk</td>
+                    </tr>
+                    <tr>
+                        <th>16:00</th>
+                        <td>Android wear tech talk</td>
+                    </tr>
+                    <tr>
+                        <th>16:30</th>
+                        <td>Pitch your ideas, create or join a team</td>
+                    </tr>
+                    <tr>
+                        <th>17:00</th>
+                        <td>Start hackin’</td>
+                    </tr>
+                    <tr>
+                        <th>21:00</th>
+                        <td>Finish hackin’ incl. some slides. Present your results!</td>
+                    </tr>
+                    <tr>
+                        <th>22:00</th>
+                        <td>Winners will be announced.</td>
+                    </tr>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <td>Get some more beers at the Früh brewery next door.</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </section>
-
-    <!-- Download Section -->
-    <!--
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
 
     <!-- Location Section -->
     <section id="location" class="container content-section text-center">
         <div class="row">
-            <h2 x-class="android handwritten">Location</h2>
+            <h2 class="android handwritten">Location</h2>
             <div class="col-lg-10 col-lg-offset-1">
-                <p>tba.</p>
+                <p><strong>Solution Space</strong>, Innovationshaus am Dom, Am Hof 20-26, 50667 Köln</p>
             </div>
         </div>
     </section>
@@ -222,32 +258,75 @@
     <!-- Map Section -->
     <div id="map"></div>
 
+    <!-- Join Section -->
+    <section id="join" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <h2 class="android handwritten">How to join?</h2>
+
+                <p>
+                    <a href="#" class="btn btn-default btn-register"><i class="fa fa-ticket"></i> Get your <span class="handwritten">free</span> ticket</a>
+                </p>
+
+                <p>&nbsp;</p>
+
+                <h2 class="android handwritten">Subscribe</h2>
+                <p>Get updates about the Android Wear Hackathon and upcoming
+                    hackathon near you:</p>
+                
+<!-- Begin MailChimp Signup Form -->
+<form action="https://mobilecologne.us10.list-manage.com/subscribe/post?u=73b3b31b27129db5fd5ff59ff&amp;id=899632cf75" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline validate" target="_blank" novalidate>
+    <input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_73b3b31b27129db5fd5ff59ff_899632cf75" tabindex="-1" value=""></div>
+    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default subscribe">
+</form>
+<!--End mc_embed_signup-->
+
+            </div>
+        </div>
+    </section>
+
     <!-- Sponsors Section -->
     <section id="sponsors" class="container content-section text-center">
+        <!--
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h3 class="android handwritten">Sponsored by</h3>
                 <p>Coming soon...</p>
             </div>
         </div>
+        -->
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h3 class="android handwritten">Hosted by</h3>
-                <p>tba...</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h3 class="android handwritten">Media Partners</h3>
-                <p>Coming soon...</p>
-            </div>
+            <p class="col-lg-5">
+                <a href="http://solutionspace.de/"><img src="img/solution-space-onwhite.jpg" alt="Solution Space" style="height: 50px;"></a><br/>
+                <!--<a href="http://solutionspace.de/" title="solutionspace.de" class="btn btn-circle btn-default"><i class="fa fa-external-link"></i></a>-->
+                <a href="https://twitter.com/Solution_Space" title="twitter.com/Solution_Space" class="btn btn-circle btn-default"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/solutionspace" title="facebook.com/solutionspace" class="btn btn-circle btn-default"><i class="fa fa-facebook"></i> </a>
+            </p>
+            <p class="col-lg-2">
+                <a href="http://hack.institute/"><img src="img/hack.institute-onwhite.png" alt="hack.institute" style="height: 50px; padding-top: 11px; padding-bottom: 12px;"></a><br/>
+                <!--<a href="http://hack.institute/" title="hack.institute" class="btn btn-circle btn-default"><i class="fa fa-external-link"></i></a>-->
+                <a href="https://twitter.com/hackinstitute" title="twitter.com/hackinstitute" class="btn btn-circle btn-default"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/hack.institute" title="facebook.com/hack.institute" class="btn btn-circle btn-default"><i class="fa fa-facebook"></i> </a>
+            </p>
+            <p class="col-lg-5">
+                <a href="http://www.mobilecologne.de/"><img src="img/mobile.cologne-onwhite.png" alt="mobile.cologne" style="height: 50px; padding-top: 6px; padding-bottom: 3px;"></a><br/>
+                <!--<a href="http://www.mobilecologne.de/" title="mobilecologne.de" class="btn btn-circle btn-default"><i class="fa fa-external-link"></i></a>-->
+                <a href="https://twitter.com/mobilecgn" title="twitter.com/mobilecgn" class="btn btn-circle btn-default"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.facebook.com/mobilecgn" title="facebook.com/mobilecgn" class="btn btn-circle btn-default"><i class="fa fa-facebook"></i> </a>
+            </p>
         </div>
         <!--
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Powered by</h2>
-                <a href="http://www.mobilecologne.de"><img src="img/mobile.cologne.png" /></a>
-                <a href="http://hack.institute"><img src="img/hack.institute.png" /></a>
+                <h3 class="android handwritten">Media Partners</h3>
+                <p>Coming soon...</p>
             </div>
         </div>
         -->
@@ -256,9 +335,12 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center" style="color: gray;">
+            <!--
             The Android Wear Hackathon is brought to you with ♥ by
+            <a href="http://solutionspace.de/">Solution Space</a>,
             <a href="http://www.mobilecologne.de"><span class="mobile">mobile.</span><span class="cologne">cologne</span></a> and
             <a href="http://hack.institute"><span class="hack">hack.</span><span class="institute">institute</span></a>.
+            -->
             <a href="http://www.mobilecologne.de/impressum.html" style="color: gray; text-decoration: underline;">Imprint</a>
         </div>
     </footer>

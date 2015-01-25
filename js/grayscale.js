@@ -38,10 +38,10 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 12,
+        zoom: 16,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(50.9385348, 6.9584818), // Köln
+        center: new google.maps.LatLng(50.9412186, 6.9581862), // Köln
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -56,10 +56,7 @@ function init() {
                 "elementType": "all",
                 "stylers": [
                     {
-                        "invert_lightness": true
-                    },
-                    {
-                        "saturation": -100
+                        "saturation": -80
                     },
                     {
                         "lightness": 30
@@ -79,12 +76,17 @@ function init() {
     // Create the Google Map using out element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
 
-    // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(50.9385348, 6.9584818);
-    var beachMarker = new google.maps.Marker({
-// TODO        position: myLatLng,
+    // Solution Space
+    var solutionSpace = new google.maps.Marker({
         map: map,
-        icon: image
+        position: new google.maps.LatLng(50.939711, 6.957859),
+        icon: 'img/map-marker-office.png'
+    });
+
+    // Cologne central station
+    var centralStation = new google.maps.Marker({
+        map: map,
+        position: new google.maps.LatLng(50.942405, 6.9583686),
+        icon: 'img/map-marker-train.png'
     });
 }
