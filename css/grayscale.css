@@ -108,6 +108,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
+        background-color: rgb(0,0,0);
         background-color: rgba(0,0,0,0.5);
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -116,7 +117,8 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.5);
     }
 
     .navbar-custom.top-nav-collapse {
