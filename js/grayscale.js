@@ -52,17 +52,32 @@ function init() {
         // This is where you would paste any style found on Snazzy Maps.
         styles: [
             {
-                "featureType": "all",
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#444444"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape",
                 "elementType": "all",
                 "stylers": [
                     {
-                        "saturation": -80
+                        "color": "#f2f2f2"
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#c2edff"
                     },
                     {
-                        "lightness": 30
-                    },
-                    {
-                        "gamma": 0.5
+                        "visibility": "on"
                     }
                 ]
             }
