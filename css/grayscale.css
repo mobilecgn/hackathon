@@ -58,8 +58,14 @@ a:focus {
 }
 
 .navbar-custom {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.navbar-custom .navbar-toggle {
+    color: #fff;
 }
 
 .navbar-custom .navbar-brand {
@@ -73,7 +79,6 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
