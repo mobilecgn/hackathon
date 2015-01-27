@@ -41,7 +41,7 @@ function init() {
         zoom: 16,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(50.9412186, 6.9581862), // Köln
+        center: new google.maps.LatLng(50.941, 6.958), // Köln
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -96,12 +96,5 @@ function init() {
         map: map,
         position: new google.maps.LatLng(50.939711, 6.957859),
         icon: 'img/map-marker-office.png'
-    });
-
-    // Cologne central station
-    var centralStation = new google.maps.Marker({
-        map: map,
-        position: new google.maps.LatLng(50.942405, 6.9583686),
-        icon: 'img/map-marker-train.png'
     });
 }
