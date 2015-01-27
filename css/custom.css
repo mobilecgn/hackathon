@@ -75,6 +75,7 @@ a .mobile, a .cologne, a .hack, a .institute {
 }
 
 .avatar img {
+    margin-top: 20px;
     width: 150px;
     height: 150px;
 
