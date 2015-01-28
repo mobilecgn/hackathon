@@ -74,8 +74,13 @@ a .mobile, a .cologne, a .hack, a .institute {
     padding: 3px 5px;
 }
 
-.avatar img {
-    margin-top: 20px;
+#speakers .avatar img {
+    width: 150px;
+    height: 150px;
+}
+#mentors .avatar img {
+    width: 150px;
+    height: 150px;
     width: 150px;
     height: 150px;
 
