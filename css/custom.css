@@ -27,6 +27,7 @@ a .mobile, a .cologne, a .hack, a .institute {
 .btn-register {
     color: black;
     background-color: #8bc349;
+    border-color: black;
 }
 .btn-register:hover, .btn-register:focus {
     color: black;
@@ -81,8 +82,13 @@ a .mobile, a .cologne, a .hack, a .institute {
 #mentors .avatar img {
     width: 150px;
     height: 150px;
+}
+#orga .avatar img {
     width: 150px;
     height: 150px;
+}
+.avatar img {
+    margin-top: 20px;
 
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -112,5 +118,11 @@ a .mobile, a .cologne, a .hack, a .institute {
     -webkit-box-shadow: 0 0 0 3px #8bc349, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
     -moz-box-shadow: 0 0 0 3px #8bc349, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
     box-shadow: 0 0 0 3px #8bc349, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+}
+
+#sponsors .fa {
+    font-size: 20px;
+    margin: 10px 3px;
+    padding: 3px 5px;
 }
 
