@@ -38,7 +38,7 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 16,
+        zoom: 14,
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(50.941, 6.958), // Köln

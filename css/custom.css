@@ -20,18 +20,19 @@ a .mobile, a .cologne, a .hack, a .institute {
     background-color: #8bc349;
 }
 .btn-register, .btn-register:hover, .btn-register:focus {
-    font-size: 26px;
-    font-weight: 300;
+    font-size: 32px;
+    font-weight: 500;
     border-width: 2px;
 }
 .btn-register {
     color: black;
     background-color: #8bc349;
-    border-color: black;
+    border-color: white;
 }
 .btn-register:hover, .btn-register:focus {
     color: black;
-    background-color: white;
+    background-color: #9bd359;
+    border-color: white;
 }
 
 #join .form-control.email {

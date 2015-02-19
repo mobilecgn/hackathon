@@ -153,16 +153,22 @@ a:focus {
 
 .intro .intro-body h1.brand-heading {
     font-size: 40px;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 20px black;
 }
 
 .intro .intro-body h2.brand-heading {
     font-size: 30px;
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 20px black;
+}
+
+.intro .intro-body .intro-keywords {
+    font-size: 30px;
+    text-shadow: 0 0 20px black;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    text-shadow: 0 0 20px black;
 }
 
 @media(min-width:767px) {
@@ -176,11 +182,15 @@ a:focus {
     }
 
     .intro .intro-body h2.brand-heading {
-        font-size: 56px;
+        font-size: 58px;
+    }
+
+    .intro .intro-body .intro-keywords {
+        padding-top: 5em;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 28px;
     }
 }
 
@@ -258,19 +268,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
-}
-
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    padding-top: 40px;
 }
 
 #map {
@@ -280,15 +278,11 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 100px;
-    }
-
-    .download-section {
-        padding: 100px 0;
+        padding-top: 60px;
     }
 
     #map {
-        height: 400px;
+        height: 320px;
     }
 }
 
