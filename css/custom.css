@@ -20,8 +20,7 @@ a .mobile, a .cologne, a .hack, a .institute {
     background-color: #8bc349;
 }
 .btn-register, .btn-register:hover, .btn-register:focus {
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 26px;
     border-width: 2px;
 }
 .btn-register {
@@ -41,10 +40,6 @@ a .mobile, a .cologne, a .hack, a .institute {
 #join .form-control.email, #join .subscribe {
     height: auto;
     font-size: 18px;
-}
-
-.handwritten {
-    font-family: 'Shadows Into Light Two', cursive;
 }
 
 #schedule table {
