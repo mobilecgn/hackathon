@@ -1,7 +1,10 @@
-# Android Wear Hackathon
+# [mobilecgn](http://www.mobilecologne.de) [hackathon](http://hackathon.mobile.cologne) page
 
+## Apple Watch Hackthon, tba, Cologne
 
-### Theme
+## Android Wear Hackathon, March 5th 2015, Cologne
+
+## Page based on Bootstrap and Grayscale
 
 Based on the [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
 [Bootstrap](http://getbootstrap.com/) theme created by
