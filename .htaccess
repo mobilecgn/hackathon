@@ -2,18 +2,50 @@ RewriteEngine   on
 #RewriteCond    %{HTTP_HOST}    !^(hackathon\.mobile\.cologne)$ [NC]
 #RewriteRule    (.*)            http://hackathon.mobile.cologne/$1 [R=301,L]
 
-RewriteRule ^de$ /index.de.html [L]
-RewriteRule ^/de$ /index.de.html [L]
-RewriteRule ^en$ /index.en.html [L]
-RewriteRule ^/en$ /index.en.html [L]
+RewriteRule ^de$ /android-wear-hackathon/index.de.html [L]
+RewriteRule ^/de$ /android-wear-hackathon/index.de.html [L]
+RewriteRule ^en$ /android-wear-hackathon/index.en.html [L]
+RewriteRule ^/en$ /android-wear-hackathon/index.en.html [L]
+
+RewriteRule ^css/(.*)$ /android-wear-hackathon/css/$1 [L]
+RewriteRule ^/css/(.*)$ /android-wear-hackathon/css/$1 [L]
+RewriteRule ^img/(.*)$ /android-wear-hackathon/img/$1 [L]
+RewriteRule ^/img/(.*)$ /android-wear-hackathon/img/$1 [L]
+RewriteRule ^js/(.*)$ /android-wear-hackathon/js/$1 [L]
+RewriteRule ^/js/(.*)$ /android-wear-hackathon/js/$1 [L]
+RewriteRule ^fonts/(.*)$ /android-wear-hackathon/fonts/$1 [L]
+RewriteRule ^/fonts/(.*)$ /android-wear-hackathon/fonts/$1 [L]
+RewriteRule ^font-awesome/(.*)$ /android-wear-hackathon/font-awesome/$1 [L]
+RewriteRule ^/font-awesome/(.*)$ /android-wear-hackathon/font-awesome/$1 [L]
+
+RewriteRule ^android-wear-hackathon/de$ /android-wear-hackathon/index.de.html [L]
+RewriteRule ^/android-wear-hackathon/de$ /android-wear-hackathon/index.de.html [L]
+RewriteRule ^android-wear-hackathon/en$ /android-wear-hackathon/index.en.html [L]
+RewriteRule ^/android-wear-hackathon/en$ /android-wear-hackathon/index.en.html [L]
+
+RewriteRule ^apple-watch-hackathon/de$ /apple-watch-hackathon/index.de.html [L]
+RewriteRule ^/apple-watch-hackathon/de$ /apple-watch-hackathon/index.de.html [L]
+RewriteRule ^apple-watch-hackathon/en$ /apple-watch-hackathon/index.en.html [L]
+RewriteRule ^/apple-watch-hackathon/en$ /apple-watch-hackathon/index.en.html [L]
+
 
 RewriteCond %{HTTP:Accept-Language} (de) [NC]
-RewriteRule ^$ /index.de.html [L]
-RewriteRule ^/$ /index.de.html [L]
+RewriteRule ^$ /android-wear-hackathon/index.de.html [L]
+RewriteRule ^/$ /android-wear-hackathon/index.de.html [L]
+RewriteRule ^android-wear-hackathon/$ /android-wear-hackathon/index.de.html [L]
+RewriteRule ^/android-wear-hackathon/$ /android-wear-hackathon/index.de.html [L]
+RewriteRule ^apple-watch-hackathon/$ /apple-watch-hackathon/index.de.html [L]
+RewriteRule ^/apple-watch-hackathon/$ /apple-watch-hackathon/index.de.html [L]
 
 #RewriteCond %{HTTP:Accept-Language} !.*de.* [NC]
-RewriteRule ^$ /index.en.html [L]
-RewriteRule ^/$ /index.en.html [L]
+RewriteRule ^$ /android-wear-hackathon/index.en.html [L]
+RewriteRule ^/$ /android-wear-hackathon/index.en.html [L]
+RewriteRule ^android-wear-hackathon/$ /android-wear-hackathon/index.en.html [L]
+RewriteRule ^/android-wear-hackathon/$ /android-wear-hackathon/index.en.html [L]
+RewriteRule ^apple-watch-hackathon/$ /apple-watch-hackathon/index.en.html [L]
+RewriteRule ^/apple-watch-hackathon/$ /apple-watch-hackathon/index.en.html [L]
+
+
 
 Header unset Last-Modified
 Header unset ETag

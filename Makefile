@@ -1,3 +1,2 @@
 publish:
-	rsync -r --stats . hackathon@hackathon.mobile.cologne:www/
-
+	rsync -r --stats --progress . hackathon@hackathon.mobile.cologne:www/
