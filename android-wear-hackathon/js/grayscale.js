@@ -24,6 +24,13 @@ $(function() {
     });
 });
 
+$(function() {
+    $('a[data-toggle="lightbox"]').bind('click', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+});
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
