@@ -1,0 +1,353 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'San Francisco', 'Neue Helvetica', 'Helvetica', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 30px 0;
+    font-weight: 300;
+}
+
+b, strong {
+    font-weight: 400;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media(min-width:767px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+}
+
+a {
+    color: #2DC6FA;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #5AACC0;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.navbar-custom {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.navbar-custom .navbar-toggle {
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 500;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li.active {
+    outline: nonte;
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a.active {
+    outline: 0;
+    background-color: rgba(255,255,255,.3);
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.6);
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.6);
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/background-banner.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body h1.brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body h2.brand-heading {
+    font-size: 30px;
+}
+
+.intro .intro-body .intro-keywords {
+    font-size: 30px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body h1.brand-heading {
+        font-size: 80px;
+    }
+
+    .intro .intro-body h2.brand-heading {
+        font-size: 58px;
+    }
+
+    .intro .intro-body .intro-keywords {
+        padding-top: 5em;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 28px;
+    }
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    border: 2px solid #fff;
+    border-radius: 23px;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes pulse {
+    0 {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {
+    0 {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.content-section {
+    padding-top: 40px;
+}
+
+#map {
+    width: 100%;
+    height: 200px;
+}
+
+@media(min-width:767px) {
+    .content-section {
+        padding-top: 60px;
+    }
+
+    #map {
+        height: 320px;
+    }
+}
+
+.btn {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid #2DC6FA;
+    color: #2DC6FA;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #2DC6FA;
+    outline: 0;
+    color: #000;
+    background-color: #2DC6FA;
+}
+
+.btn-social {
+    border: 1px solid #2DC6FA;
+    color: #ffffff;
+    background-color: #2DC6FA;
+}
+
+.btn-social:hover,
+.btn-social:focus {
+    border: 1px solid #2DC6FA;
+    outline: 0;
+    color: #2DC6FA;
+    background-color: #ffffff;
+}
+
+footer {
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #2DC6FA;
+    background: rgba(122,204,240,.2);
+}
+
+::selection {
+    text-shadow: none;
+    background: #2DC6FA;
+    background: rgba(122,204,240,.2);
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+}

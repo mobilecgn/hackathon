@@ -1,0 +1,123 @@
+.alexa {
+    color: #2DC6FA;
+}
+.mobile {
+    color: #e01f1f;
+}
+.cologne {
+    color: #000000;
+}
+.hack {
+    color: #ff6d40;
+}
+.institute {
+    color: #000000;
+}
+a .mobile, a .cologne, a .hack, a .institute {
+    text-decoration: underline;
+}
+.navbar .join a {
+    background-color: #2DC6FA;
+}
+.btn-register, .btn-register:hover, .btn-register:focus {
+    font-size: 26px;
+    border-width: 2px;
+}
+.btn-register {
+    color: black;
+    background-color: #2DC6FA;
+    border-color: white;
+}
+.btn-register:hover, .btn-register:focus {
+    color: black;
+    background-color: #9ADCFF;
+    border-color: white;
+}
+
+#join .form-control.email {
+    width: 300px;
+}
+#join .form-control.email, #join .subscribe {
+    height: auto;
+    font-size: 18px;
+}
+
+#schedule table {
+    width: 100%;
+}
+#schedule tr {
+    border-bottom: 1px solid #2DC6FA;
+}
+#schedule tr:last-child {
+    border-bottom: none;
+}
+#schedule table th {
+    padding: 0.5em;
+}
+#schedule table td {
+    padding: 0.5em;
+    text-align: left;
+}
+
+.avatar p {
+    max-width: 300px;
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+.avatar .fa {
+    font-size: 20px;
+    margin: 0 3px;
+    padding: 3px 5px;
+}
+
+#speakers .avatar img {
+    width: 150px;
+    height: 150px;
+}
+#mentors .avatar img {
+    width: 150px;
+    height: 150px;
+}
+#orga .avatar img {
+    width: 150px;
+    height: 150px;
+}
+.avatar img {
+    margin-top: 20px;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    /*
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(100%);
+    */
+
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+
+    -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+}
+
+.avatar img:hover {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+
+    -webkit-box-shadow: 0 0 0 3px #2DC6FA, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 0 3px #2DC6FA, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 0 3px #2DC6FA, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+}
+
+#sponsors .fa {
+    font-size: 20px;
+    margin: 10px 3px;
+    padding: 3px 5px;
+}
