@@ -18,6 +18,7 @@ RewriteRule ^/fonts/(.*)$ /apple-watch-hackathon/fonts/$1 [L]
 RewriteRule ^font-awesome/(.*)$ /apple-watch-hackathon/font-awesome/$1 [L]
 RewriteRule ^/font-awesome/(.*)$ /apple-watch-hackathon/font-awesome/$1 [L]
 
+
 RewriteRule ^android-wear-hackathon/de$ /android-wear-hackathon/index.de.html [L]
 RewriteRule ^/android-wear-hackathon/de$ /android-wear-hackathon/index.de.html [L]
 RewriteRule ^android-wear-hackathon/en$ /android-wear-hackathon/index.en.html [L]
@@ -28,6 +29,11 @@ RewriteRule ^/apple-watch-hackathon/de$ /apple-watch-hackathon/index.de.html [L]
 RewriteRule ^apple-watch-hackathon/en$ /apple-watch-hackathon/index.en.html [L]
 RewriteRule ^/apple-watch-hackathon/en$ /apple-watch-hackathon/index.en.html [L]
 
+RewriteRule ^alexa-hackathon/de$ /alexa-hackathon/index.de.html [L]
+RewriteRule ^/alexa-hackathon/de$ /alexa-hackathon/index.de.html [L]
+RewriteRule ^alexa-hackathon/en$ /alexa-hackathon/index.en.html [L]
+RewriteRule ^/alexa-hackathon/en$ /alexa-hackathon/index.en.html [L]
+
 
 RewriteCond %{HTTP:Accept-Language} (de) [NC]
 RewriteRule ^$ /apple-watch-hackathon/index.de.html [L]
@@ -36,6 +42,8 @@ RewriteRule ^android-wear-hackathon/$ /android-wear-hackathon/index.de.html [L]
 RewriteRule ^/android-wear-hackathon/$ /android-wear-hackathon/index.de.html [L]
 RewriteRule ^apple-watch-hackathon/$ /apple-watch-hackathon/index.de.html [L]
 RewriteRule ^/apple-watch-hackathon/$ /apple-watch-hackathon/index.de.html [L]
+RewriteRule ^alexa-hackathon/$ /alexa-hackathon/index.de.html [L]
+RewriteRule ^/alexa-hackathon/$ /alexa-hackathon/index.de.html [L]
 
 #RewriteCond %{HTTP:Accept-Language} !.*de.* [NC]
 RewriteRule ^$ /apple-watch-hackathon/index.en.html [L]
@@ -44,6 +52,8 @@ RewriteRule ^android-wear-hackathon/$ /android-wear-hackathon/index.en.html [L]
 RewriteRule ^/android-wear-hackathon/$ /android-wear-hackathon/index.en.html [L]
 RewriteRule ^apple-watch-hackathon/$ /apple-watch-hackathon/index.en.html [L]
 RewriteRule ^/apple-watch-hackathon/$ /apple-watch-hackathon/index.en.html [L]
+RewriteRule ^alexa-hackathon/$ /alexa-hackathon/index.en.html [L]
+RewriteRule ^/alexa-hackathon/$ /alexa-hackathon/index.en.html [L]
 
 
 
@@ -56,4 +66,3 @@ ExpiresByType text/css "access plus 1 days"
 ExpiresByType image/gif "access plus 7 days"
 ExpiresByType image/jpeg "access plus 7 days"
 ExpiresByType image/png "access plus 7 days"
-
