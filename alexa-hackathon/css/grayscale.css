@@ -177,6 +177,10 @@ a:focus {
         padding: 0;
     }
 
+    .intro .intro-body {
+        padding-top: 100px;
+    }
+
     .intro .intro-body h1.brand-heading {
         font-size: 80px;
     }
