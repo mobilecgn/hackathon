@@ -12,7 +12,7 @@ html {
 body {
     width: 100%;
     height: 100%;
-    font-family: 'San Francisco', 'Neue Helvetica', 'Helvetica', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-weight: 300;
 }
 
@@ -161,14 +161,14 @@ a:focus {
     text-shadow: 0 0 20px black;
 }
 
+.intro .intro-body h1.brand-heading strong {
+  font-weight: 500;
+}
+
 .intro .intro-body h2.brand-heading {
     font-size: 30px;
     font-weight: 300;
     text-shadow: 0 0 20px black;
-}
-
-.intro .intro-body strong {
-    font-weight: 400;
 }
 
 .intro .intro-body .intro-keywords {

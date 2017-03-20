@@ -1,6 +1,6 @@
 # [mobilecgn](http://www.mobilecologne.de) [hackathon](http://hackathon.mobile.cologne) page
 
-## Apple Watch Hackthon, tba, Cologne
+## Alexa Hackthon, April 27th 2017, Cologne
 
 ## Android Wear Hackathon, March 5th 2015, Cologne
 
