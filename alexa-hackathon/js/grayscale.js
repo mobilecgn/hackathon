@@ -41,14 +41,14 @@ function init() {
         zoom: 14,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(50.941, 6.958), // Köln
+        center: new google.maps.LatLng(50.9352714, 6.9347012), // die wohngemeinschaft
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
         scrollwheel: false,
         draggable: false,
 
-        // How you would like to style the map. 
+        // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
         styles: [
             {
@@ -84,7 +84,7 @@ function init() {
         ]
     };
 
-    // Get the HTML DOM element that will contain your map 
+    // Get the HTML DOM element that will contain your map
     // We are using a div with id="map" seen below in the <body>
     var mapElement = document.getElementById('map');
 
@@ -94,7 +94,7 @@ function init() {
     // Solution Space
     var solutionSpace = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(50.939711, 6.957859),
+        position: new google.maps.LatLng(50.9352714, 6.9347012), // die wohngemeinschaft
         icon: 'img/map-marker-office.png'
     });
 }
