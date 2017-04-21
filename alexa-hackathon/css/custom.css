@@ -71,10 +71,14 @@ a .mobile, a .cologne, a .hack, a .institute {
 }
 
 #speakers .avatar img {
+    width: 200px;
+    height: 200px;
+}
+#mentors .avatar img {
     width: 150px;
     height: 150px;
 }
-#mentors .avatar img {
+#jury .avatar img {
     width: 150px;
     height: 150px;
 }
