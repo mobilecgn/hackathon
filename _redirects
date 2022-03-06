@@ -1,0 +1,25 @@
+/                             /alexa-hackathon/index.de.html                    200  Country=de
+/                             /alexa-hackathon/index.en.html                    200
+/de                           /alexa-hackathon/index.de.html                    200
+/en                           /alexa-hackathon/index.en.html                    200
+
+/css/*                        /alexa-hackathon/css/:splat                       200
+/img/*                        /alexa-hackathon/img/:splat                       200
+/js/*                         /alexa-hackathon/js/:splat                        200
+/fonts/*                      /alexa-hackathon/fonts/:splat                     200
+/font-awesome/*               /alexa-hackathon/font-awesome/:splat              200
+
+/android-wear-hackathon       /android-wear-hackathon/index.de.html             200  Country=de
+/android-wear-hackathon       /android-wear-hackathon/index.en.html             200
+/android-wear-hackathon/de    /android-wear-hackathon/index.de.html             200
+/android-wear-hackathon/en    /android-wear-hackathon/index.en.html             200
+
+/apple-watch-hackathon        /apple-watch-hackathon/index.de.html              200  Country=de
+/apple-watch-hackathon        /apple-watch-hackathon/index.en.html              200
+/apple-watch-hackathon/de     /apple-watch-hackathon/index.de.html              200
+/apple-watch-hackathon/en     /apple-watch-hackathon/index.en.html              200
+
+/alexa-hackathon/de           /alexa-hackathon/index.de.html                    200  Country=de
+/alexa-hackathon/en           /alexa-hackathon/index.en.html                    200
+/alexa-hackathon/de           /alexa-hackathon/index.de.html                    200
+/alexa-hackathon/en           /alexa-hackathon/index.en.html                    200
